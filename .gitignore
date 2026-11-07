@@ -1,0 +1,58 @@
+# ---- 依赖 ----
+node_modules/
+.npm/
+.pnpm-store/
+vendor/
+Pods/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- 构建产物 ----
+dist/
+build/
+out/
+target/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ---- 日志与缓存 ----
+*.log
+logs/
+.cache/
+.temp/
+tmp/
+
+# ---- 编辑器 / 系统 ----
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 环境与密钥（切勿提交）----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ---- 本地工具数据 ----
+.workbuddy/
